@@ -92,6 +92,3 @@ The tests cover the game rules (target calculation, ties, each extra rule, lives
 | `.env.example` | Template for the API key settings |
 | `.streamlit/config.toml` | Theme settings |
 
-## Security note
-
-The API key is read from the `.env` file, which is listed in `.gitignore`. Never put the key in the source code or in `.env.example`.
